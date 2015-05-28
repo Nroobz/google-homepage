@@ -1,0 +1,134 @@
+
+/*********************
+GENERAL
+*********************/
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    padding: 5px;
+    font-family: "Helvetiva Neue", Helvetiva, Arial, sans-serif;
+    font-size: small;
+}
+
+#wrapper {
+    max-width: 100%;
+    margin: 3em auto 10em;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #404
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+li{
+    display: inline-block;
+    padding: 0 1em 0;
+    /*** vertical-align responds to middle but not center values **/   
+    vertical-align: middle;
+}
+
+
+/*********************
+NAVIGATION
+*********************/
+
+#user-nav {
+    text-align: right;
+}
+
+/*********************
+LOGO
+*********************/
+
+#logo {
+    max-width: 30%;
+    margin: 2.5%;
+}
+
+
+
+/*********************
+SEARCH BOX
+*********************/
+
+#search {
+    text-align: center;
+        margin: 1em
+}
+
+
+#search-bar {
+    
+   max-width: 600px;
+    min-width: 300px;
+    height: 2em;
+    
+}
+
+#search-btn, #flg-lcky {
+    height: 2.2em;
+    display: inline-block;
+    margin: 1em auto;
+}
+
+#search-btn {
+    margin-right: 1em;
+}
+
+/*********************
+SEARCH BUTTONS STYLING
+*********************/
+
+#search-btn, #flg-lcky {
+
+}
+
+/*********************
+        FOOTER
+*********************/
+
+
+footer {
+    min-width: 100%;
+    bottom: 0;
+    line-height: 3em;
+    position: absolute;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+    margin-right: 1em;
+}
+
+footer ul {
+    padding: 0 0 0 1.25em;
+}
+
+.footer-left {
+    float:left;
+    margin: 0;
+}
+
+.footer-right {
+    float: right;
+    margin: 0;
+    margin-right: 1.25rem;
+}
+
+/*********************
+  FOOTER STYLING
+*********************/
+
+
+
+
